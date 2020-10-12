@@ -41,7 +41,7 @@ public class CashbackHackServiceTest {
     @org.junit.jupiter.api.Test
     public void shouldSpendExtra700() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int actual = cashbackHackService.remain(300);
+        int actual = cashbackHackService.remain(1300);
         int expected = 700;
         assertEquals(expected, actual);
     }
